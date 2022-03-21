@@ -1,3 +1,6 @@
+# JANGAN GUNA!!!
+# DON'T USE!!!
+
 # wabot-aq
 
 Simple WhatsApp Bot
