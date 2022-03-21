@@ -77,8 +77,8 @@ module.exports = {
           if (!('viewonce' in chat)) chat.viewonce = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: false,
-          detect: false,
+          welcome: true,
+          detect: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
@@ -104,13 +104,13 @@ module.exports = {
           if (!('jadibot' in setting)) setting.jadibot = false
         } else global.db.data.settings[this.user.jid] = {
           anticall: false,
-          autoread: false,
+          autoread: true,
           nyimak: false,
-          restrict: false,
+          restrict: true,
           self: false,
           pconly: false,
           gconly: false,
-          jadibot: false,
+          jadibot: true,
         }
       } catch (e) {
         console.error(e)
